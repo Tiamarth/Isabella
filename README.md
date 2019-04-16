@@ -12,5 +12,4 @@ Because the gtk theme and the Vivaldi theme uses graphics from the Arc gtk theme
 
 **Need more help?** Get in touch!
 - join my [Discord server](https://discord.gg/ZfDP2ZV)
-- [Create an issue here on GitHub](https://github.com/Tiamarth/Isabella/issues/new)
 - [Email me](mailto:jontiamac@gmail.com)
