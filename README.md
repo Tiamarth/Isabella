@@ -1,5 +1,5 @@
 # Isabella
-> A theme for [Sublime Text.](https://www.sublimetext.com/), [Vivaldi,](https://vivaldi.com/), and Gnome  
+> A theme for [Sublime Text,](https://www.sublimetext.com/) [Vivaldi,](https://vivaldi.com/) and Gnome.  
 > We were there...
 
 [Screenshots](https://imgur.com/a/p7yC7B7) (imgur album)
