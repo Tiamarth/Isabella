@@ -1,14 +1,20 @@
+:root {
+    --colorBg: #333335;
+    --colorFg: #d1d1d1;
+    --colorHighlightBg: #be4318;
+    --colorHighlightBgFaded: #be6242;
+}
 body {
     font-family: font-family: 'Ubuntu', sans-serif;
     padding-top: 1%;
     padding-right: 3%;
     padding-left: 3%;
-    color: #d1d1d1;
-    background: #333335;
+    color: var(--colorFg);
+    background: var(--colorBg);
 }
 a {
     text-decoration: none;
-    color: #be4318;
+    color: var(--colorHighlightBg);
     transition-duration: 0.2s;
 }
-a:hover {color: #be6242;}
+a:hover {color: var(--colorHighlightBgFaded);}
