@@ -1,9 +1,11 @@
 :root {
+    --transitionTime: 0.2s;
     --colorBg: #333335;
     --colorFg: #d1d1d1;
     --colorHighlightBg: #be4318;
     --colorHighlightBgFaded: #be6242;
 }
+a,.card img {transition-duration: var(--transitionTime);}
 body {
     font-family: font-family: 'Ubuntu', sans-serif;
     padding-top: 1%;
@@ -15,6 +17,18 @@ body {
 a {
     text-decoration: none;
     color: var(--colorHighlightBg);
-    transition-duration: 0.2s;
 }
 a:hover {color: var(--colorHighlightBgFaded);}
+.card {
+    float: left;
+    margin: 1%;
+}
+.card img {
+    height: 300px;
+    box-shadow: 0 1px 4px black;
+}
+.card:hover img {
+    height: 350px;
+    box-shadow: 0 -1px 10px black;
+}
+.card-overlay {background: #000000bd;}
