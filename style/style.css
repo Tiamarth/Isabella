@@ -80,6 +80,7 @@ p {margin-left: 6%;}
     position: absolute;
     bottom: -40px;
     left: 0;
+    color: var(--colorHighlightBg);
     background: #000000bd;
     opacity: 0;
     padding: 0 0;
