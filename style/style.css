@@ -2,6 +2,8 @@
     --transitionTime: 0.2s;
     --colorBg: #333335;
     --colorFg: #d1d1d1;
+    --colorFgFaded: #e3e3e363;
+    --colorFgFadedMore: #9d9d9d66;
     --colorHighlightBg: #be4318;
     --colorHighlightBgFaded: #be6242;
 }
@@ -47,3 +49,9 @@ p {margin-left: 3%;}
     padding-top: 130px;
     opacity: 1;
 }
+.bottom {
+    width: 100%;
+}
+.bottom li {display: inline;}
+.bottom,.bottom a {color: var(--colorFgFadedMore);}
+.bottom a:hover {color: var(--colorFgFaded);}
