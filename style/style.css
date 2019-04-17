@@ -54,14 +54,14 @@ p {margin-left: 6%;}
     width: 367px;
     padding-top: 0;
     text-align: center;
-    background: #000000cc;
+    background: #000000bd;
     opacity: 1;
 }
 .card:hover .card-overlay {
-    top: 0;
-    height: 170px;
+    height: 200px;
     padding-top: 130px;
     opacity: 1;
+    box-shadow: 0 1px 10px black;
 }
 .nofloat {
     height: 0;
