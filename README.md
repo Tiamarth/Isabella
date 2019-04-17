@@ -9,6 +9,13 @@
 - Vivaldi [isabella-vivaldi](https://github.com/Tiamarth/isabella-vivaldi)
 - Gnome [isabella-gnome](https://github.com/Tiamarth/isabella-gnome)
 
+### Todo
+&#9744; steam  
+&#9744; atom  
+&#9744; empathy (adium)  
+&#9744; discord (maybe)  
+&#9744; responsive site for mobile support  
+
 ## License
 Because the gtk theme and the Vivaldi theme uses graphics from the Arc gtk theme, I've decided to use the same license as Arc, which is the [GPL-3.0](./LICENSE)
 
