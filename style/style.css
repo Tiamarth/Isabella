@@ -37,6 +37,7 @@ p {margin-left: 6%;}
     color: var(--colorFg);
     background: var(--colorBg);
 }
+.cards#light {display: none;}
 .card {
     position: relative;
     float: left;
@@ -67,10 +68,17 @@ p {margin-left: 6%;}
     height: 0;
     clear: both;
 }
+.palette {margin-left: 1%;}
+.palette#light {display: none;}
+.color {
+    display: inline;
+    width: 33px;
+}
+.color img {box-shadow: 0 0 3px black;}
 .bottom {
     text-align: center;
     width: 100vh;
-    margin-top: -1%;
+    margin-top: 1%;
 }
 .bottom li {display: inline;}
 .bottom,.bottom a {color: var(--colorFgFadedMore);}
@@ -106,6 +114,14 @@ input#themer:checked ~ .container blockquote a {
     color: var(--colorFgLightFadedMore);
 }
 input#themer:checked ~ .container blockquote a:hover {color: var(--colorFgLightFaded);}
+input#themer:checked ~ .container .cards#dark,
+input#themer:checked ~ .container .palette#dark {
+    display: none;
+}
+input#themer:checked ~ .container .cards#light,
+input#themer:checked ~ .container .palette#light {
+    display: block;
+}
 input#themer:checked ~ .container .bottom,
 input#themer:checked ~ .container .bottom a {
     color: var(--colorFgLightFadedMore);
