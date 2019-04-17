@@ -32,15 +32,15 @@ a {
 a:hover {color: var(--colorHighlightBgFaded);}
 p {margin-left: 6%;}
 .container {
-  width: 100vw;
-  height: 100vh;
-      color: var(--colorFg);
+    width: 100vw;
+    height: 100vh;
+    color: var(--colorFg);
     background: var(--colorBg);
 }
 .card {
     position: relative;
     float: left;
-    margin: 1%;
+    margin: 3% 1%;
 }
 .card img {
     display: block;
@@ -49,15 +49,16 @@ p {margin-left: 6%;}
 }
 .card-overlay {
     position: absolute; 
-    top: 0;
+    top: -30px;
     height: 0;
     width: 367px;
     padding-top: 0;
     text-align: center;
     background: #000000cc;
-    opacity: 0;
+    opacity: 1;
 }
 .card:hover .card-overlay {
+    top: 0;
     height: 170px;
     padding-top: 130px;
     opacity: 1;
@@ -76,37 +77,37 @@ p {margin-left: 6%;}
 .bottom a:hover {color: var(--colorFgFaded);}
 /* theme switcher */
 label {
-  height: 0;
-  position: absolute;
-  top: 10px;
-  left: 28vw;
-  color: var(--colorFgFadedMore);
+    height: 0;
+    position: absolute;
+    top: 10px;
+    left: 28vw;
+    color: var(--colorFgFadedMore);
 }
 label:hover {
-  color: var(--colorFgFaded);
-  cursor: pointer;
+    color: var(--colorFgFaded);
+    cursor: pointer;
 }
 label:after {content: ' Dark'}
 input#themer {
-   position: absolute;
-   top: -9999px;
-   left: -9999px;
+    position: absolute;
+    top: -9999px;
+    left: -9999px;
 }
 /* light theme */
 input#themer:checked + label {color: var(--colorFgLightFadedMore);}
 input#themer:checked + label:after {content: ' Light'}
 input#themer:checked + label:hover {color: var(--colorFgLightFaded);}
 input#themer:checked ~ .container {
-  color: var(--colorFgLight);
-  background: var(--colorBgLight);
+    color: var(--colorFgLight);
+    background: var(--colorBgLight);
 }
 input#themer:checked ~ .container blockquote,
 input#themer:checked ~ .container blockquote a {
-  color: var(--colorFgLightFadedMore);
+    color: var(--colorFgLightFadedMore);
 }
 input#themer:checked ~ .container blockquote a:hover {color: var(--colorFgLightFaded);}
 input#themer:checked ~ .container .bottom,
 input#themer:checked ~ .container .bottom a {
-  color: var(--colorFgLightFadedMore);
+    color: var(--colorFgLightFadedMore);
 }
 input#themer:checked ~ .container .bottom a:hover {color: var(--colorFgLightFaded);}
