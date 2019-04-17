@@ -15,7 +15,7 @@
     margin: 0;
     padding: 0;
 }
-a,.container,.card-overlay,label {transition-duration: var(--transitionTime);}
+a,.container,.card-overlay,.palettePopup,label {transition-duration: var(--transitionTime);}
 body {
     font-family: font-family: 'Ubuntu', sans-serif;
     font-size: 20pt;
@@ -71,10 +71,23 @@ p {margin-left: 6%;}
 .palette {margin-left: 1%;}
 .palette#light {display: none;}
 .color {
+    position: relative;
     display: inline;
     width: 33px;
 }
 .color img {box-shadow: 0 0 3px black;}
+.palettePopup {
+    position: absolute;
+    bottom: -40px;
+    left: 0;
+    background: #000000bd;
+    opacity: 0;
+    padding: 0 0;
+}
+.color:hover .palettePopup {
+    opacity: 1;
+    padding: 5px 25px;
+}
 .bottom {
     text-align: center;
     width: 100vh;
