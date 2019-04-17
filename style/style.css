@@ -11,12 +11,16 @@ a,.card img,.card-overlay {transition-duration: var(--transitionTime);}
 body {
     font-family: font-family: 'Ubuntu', sans-serif;
     font-size: 20pt;
-    padding-top: 1%;
     padding-right: 3%;
     padding-left: 3%;
     color: var(--colorFg);
     background: var(--colorBg);
 }
+blockquote,blockquote a {
+    margin: -2% auto;
+    color: var(--colorFgFadedMore);
+}
+blockquote a:hover {color: var(--colorFgFaded);}
 a {
     text-decoration: none;
     color: var(--colorHighlightBg);
@@ -49,8 +53,10 @@ p {margin-left: 3%;}
     padding-top: 130px;
     opacity: 1;
 }
+.nofloat {clear: both;}
 .bottom {
-    width: 100%;
+    width: 100vh;
+    margin-top: -10px;
 }
 .bottom li {display: inline;}
 .bottom,.bottom a {color: var(--colorFgFadedMore);}
