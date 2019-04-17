@@ -5,9 +5,10 @@
     --colorHighlightBg: #be4318;
     --colorHighlightBgFaded: #be6242;
 }
-a,.card img {transition-duration: var(--transitionTime);}
+a,.card img,.card-overlay {transition-duration: var(--transitionTime);}
 body {
     font-family: font-family: 'Ubuntu', sans-serif;
+    font-size: 20pt;
     padding-top: 1%;
     padding-right: 3%;
     padding-left: 3%;
@@ -19,7 +20,9 @@ a {
     color: var(--colorHighlightBg);
 }
 a:hover {color: var(--colorHighlightBgFaded);}
+p {margin-left: 3%;}
 .card {
+    position: relative;
     float: left;
     margin: 1%;
 }
@@ -27,8 +30,19 @@ a:hover {color: var(--colorHighlightBgFaded);}
     height: 300px;
     box-shadow: 0 1px 4px black;
 }
-.card:hover img {
-    height: 350px;
-    box-shadow: 0 -1px 10px black;
+.card:hover img {box-shadow: 0 -1px 10px black;}
+.card-overlay {
+    position: absolute; 
+    top: 0;
+    height: 0;
+    width: 367px;
+    padding-top: 0;
+    text-align: center;
+    background: #000000cc;
+    opacity: 0;
 }
-.card-overlay {background: #000000bd;}
+.card:hover .card-overlay {
+    height: 170px;
+    padding-top: 130px;
+    opacity: 1;
+}
