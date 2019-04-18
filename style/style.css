@@ -109,7 +109,7 @@ label:hover {
     color: var(--colorFgFaded);
     cursor: pointer;
 }
-label:after {content: ' Dark'}
+label:after {content: 'Current Theme: Isabella Dark'}
 input#themer {
     position: absolute;
     top: -9999px;
@@ -117,7 +117,7 @@ input#themer {
 }
 /* light theme */
 input#themer:checked + label {color: var(--colorFgLightFadedMore);}
-input#themer:checked + label:after {content: ' Light'}
+input#themer:checked + label:after {content: 'Current Theme: Isabella Light'}
 input#themer:checked + label:hover {color: var(--colorFgLightFaded);}
 input#themer:checked ~ .container {
     color: var(--colorFgLight);
