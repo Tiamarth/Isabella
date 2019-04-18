@@ -23,8 +23,9 @@ body {
     background: var(--colorBg);
 }
 h1,h2 {margin-left: 3%;}
-blockquote,blockquote a {color: var(--colorFgFadedMore);}
-blockquote a:hover {color: var(--colorFgFaded);}
+blockquote {color: var(--colorFgFadedMore);}
+blockquote a {color: var(--colorFgFaded);}
+blockquote a:hover {color: var(--colorFgFadedMore);}
 a {
     text-decoration: none;
     color: var(--colorHighlightBg);
@@ -102,11 +103,11 @@ label {
     height: 0;
     position: absolute;
     top: 10px;
-    left: 28vw;
-    color: var(--colorFgFadedMore);
+    left: 19vw;
+    color: var(--colorFgFaded);
 }
 label:hover {
-    color: var(--colorFgFaded);
+    color: var(--colorFgFadedMore);
     cursor: pointer;
 }
 label:after {content: 'Current Theme: Isabella Dark'}
