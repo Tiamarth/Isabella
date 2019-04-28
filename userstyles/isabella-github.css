@@ -14,12 +14,41 @@ body {
     background-color: var(--colorBg);
 }
 a {color: var(--colorHl);}
-a:hover {color: var(--colorFg);}
+.btn-link {color: var(--colorHl);}
 .bg-white {background-color: var(--colorAc) !important;}
 .bg-gray {background-color: var(--colorBg) !important;}
 .border-top,.border-right,.border-bottom,.border-left {border-color: var(--colorAc) !important;}
 .Header {background: var(--colorAc) !important;}
 .repohead {background-color: var(--colorAc) !important;}
+.reponav-item,.reponav-item.selected {color: var(--colorFg);}
+.reponav-item.selected {
+    padding-top: 10px;
+    background-color: var(--colorBg);
+    border: initial;
+}
+.pagehead {border-bottom: initial;}
+.overall-summary {
+    background-color: var(--colorAc);
+    border-color: var(--colorAc) !important;
+}
+.numbers-summary .nolink,.numbers-summary a,.numbers-summary .text-emphasized {color: var(--colorHl);}
+.numbers-summary a:hover {color: var(--colorFg);}
+.repository-lang-stats-graph,
+.repository-lang-stats-graph .language-color:not(:first-child){
+    border-color: var(--colroAc);
+}
+.repository-lang-stats ol.repository-lang-stats-numbers li .lang {color: var(--colorFg);}
+.commit-tease {
+    color: var(--colorFg);
+    background-color: var(--colorAc);
+    border-color: var(--colorAc);
+}
+.team-mention,.user-mention,.commit-tease-sha {color: var(--colorFgBolded);}
+.file-wrap {border-color: var(--colorAc);}
+table.files {background-color: var(--colorBgDarker);}
+table.files td {border-color: var(--colorAc);}
+table.files td.icon,table.files td.icon .octicon-file-directory {color: var(--colorFg);}
+table.files tr.navigation-focus td, table.files tr[aria-selected=true] td {background-color: var(--colorBg);}
 .dashboard-sidebar {background-color: var(--colorAc);}
 .form-control {
     background-color: var(--colorBgDarker);
