@@ -1,5 +1,26 @@
 /* https://tiamarth.github.io/Isabella/ */
-/* global */
+body {
+    /* universal */
+    --colorBlack: black;
+    --colorWhite: white;
+    --colorHl: #be4318;
+    --colorHlFaded: #b18879;
+    /* dark */
+    --colorBgDark: #333335;
+    --colorBgDarkDarker: #232325;
+    --colorFgDark: #d1d1d1;
+    --colorFgDarkBolded: white;
+    --colorFgDarkFaded: #87878c;
+    --colorAcDark: #101013;
+    /* light */
+    --colorBgLight: #f9f9f9;
+    --colorBgLightDarker: #e8e8e8;
+    --colorFgLight: #4c4f59;
+    --colorFgLightBolded: black;
+    --colorFgLightFaded: #a9a9b3;
+    --colorAcLight: #cccccc;
+}
+/* global compacter */
 .containerCompact-3V0ioj {padding: 2px 0;}
 .message-1PNnaP {margin-bottom: 0;}
 .content-3dzVd8 {padding-right: 2%;}
@@ -11,12 +32,7 @@
     margin-left: 2ch;
     text-indent: -3ch;
 }
-.theme-light .username-_4ZSMR,
-.theme-dark .username-_4ZSMR {
-    color: #be4318;
-}
 .dividerEnabled-2TTlcf {display: none;}
-.markup-2BOw-j a {color: #be4318 !important;}
 .messageEditorCompact-2PSR3v {
     margin-right: 1%;
     margin-left: 1%;
@@ -29,13 +45,20 @@
     height: 965px !important;
     max-height: 965px !important;
 }
+/* global colors */
+.theme-dark .wrapper-1Rf91z,.theme-light .wrapper-1Rf91z {background-color: var(--colorAcDark);}
+.theme-light .username-_4ZSMR,
+.theme-dark .username-_4ZSMR {
+    color: var(--colorHl);
+}
+.markup-2BOw-j a {color: var(--colorHl) !important;}
 /* light theme */
-.theme-light .content-yTz4x3 {background-color: #f9f9f9;}
-.theme-light .markup-2BOw-j {color: #4c4f59;}
-.theme-light .timestampCompact-MHgFLv {color: #4c4f59 !important;}
+.theme-light .content-yTz4x3 {background-color: var(--colorBgLight);}
+.theme-light .markup-2BOw-j {color: var(--colorFgLight);}
+.theme-light .timestampCompact-MHgFLv {color: var(--colorFgLight) !important;}
 /* dark theme */
 .theme-dark .content-yTz4x3,
 .theme-dark .messagesWrapper-3lZDfY {
-    background-color: #333335;
+    background-color: var(--colorBgDark);
 }
-.theme-dark .timestampCompact-MHgFLv {color: #d1d1d1 !important;}
+.theme-dark .timestampCompact-MHgFLv {color: var(--colorFgDark) !important;}
