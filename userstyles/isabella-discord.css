@@ -1,0 +1,41 @@
+/* https://tiamarth.github.io/Isabella/ */
+/* global */
+.containerCompact-3V0ioj {padding: 2px 0;}
+.message-1PNnaP {margin-bottom: 0;}
+.content-3dzVd8 {padding-right: 2%;}
+.containerCompact-3bB5aN {padding-left: 3%;}
+.buttonContainer-KtQ8wc {display: none;}
+.timestampCompact-MHgFLv:before {content: '[';}
+.timestampCompact-MHgFLv:after {content: ']';}
+.isCompact-1hsne1 {
+    margin-left: 2ch;
+    text-indent: -3ch;
+}
+.theme-light .username-_4ZSMR,
+.theme-dark .username-_4ZSMR {
+    color: #be4318;
+}
+.dividerEnabled-2TTlcf {display: none;}
+.markup-2BOw-j a {color: #be4318 !important;}
+.messageEditorCompact-2PSR3v {
+    margin-right: 1%;
+    margin-left: 1%;
+}
+.messageEditorCompact-2PSR3v .inner-zqa7da {
+    height: 990px !important;
+    max-height: 990px !important;
+}
+.messageEditorCompact-2PSR3v textarea {
+    height: 965px !important;
+    max-height: 965px !important;
+}
+/* light theme */
+.theme-light .content-yTz4x3 {background-color: #f9f9f9;}
+.theme-light .markup-2BOw-j {color: #4c4f59;}
+.theme-light .timestampCompact-MHgFLv {color: #4c4f59 !important;}
+/* dark theme */
+.theme-dark .content-yTz4x3,
+.theme-dark .messagesWrapper-3lZDfY {
+    background-color: #333335;
+}
+.theme-dark .timestampCompact-MHgFLv {color: #d1d1d1 !important;}
