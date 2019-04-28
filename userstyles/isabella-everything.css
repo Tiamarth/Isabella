@@ -1,0 +1,18 @@
+/* https://tiamarth.github.io/Isabella/
+ * this will break some sites!
+ * using a site that Isabella doesn't support yet?
+ * going blind trying to deal with a bright white theme?
+ * use this to indiscriminately and violently force everything
+ * to use Isabella's colors until your site is officially supported
+ */
+* {
+    color: #d1d1d1 !important;
+    background-color: #333335 !important;
+    border-color: #101013 !important;
+    /* box-shadow: none; */
+}
+::selection {
+    background-color: #be4318 !important;
+}
+a {color: #be4318 !important;}
+a:hover {color: #d1d1d1 !important;}
