@@ -13,12 +13,40 @@ body {
     color: var(--colorFg);
     background-color: var(--colorBg);
 }
+/* dashboard */
 a {color: var(--colorHl);}
 .btn-link {color: var(--colorHl);}
 .bg-white {background-color: var(--colorAc) !important;}
 .bg-gray {background-color: var(--colorBg) !important;}
 .border-top,.border-right,.border-bottom,.border-left {border-color: var(--colorAc) !important;}
 .Header {background: var(--colorAc) !important;}
+.dashboard-sidebar {background-color: var(--colorAc);}
+.form-control {
+    background-color: var(--colorBgDarker);
+    border-color: var(--colorBgDarker);
+}
+.mt-3 {margin-top: 0 !important;}
+body > div.application-main > div > div {
+    padding-right: 0 !important;
+    padding-left: 0 !important;
+}
+#dashboard {
+    padding: 1% 3%;
+    background-color: var(--colorBg) !important;
+}
+.link-gray-dark {color: var(--colorHl) !important;}
+.link-gray-dark:hover {color: var(--colorFg) !important;}
+.text-gray-dark {color: var(--colorFg) !important;}
+.Box {
+    color: var(--colorFg);
+    background-color: var(--colorBgDarker);
+    border-color: var(--colorBgDarker);
+}
+#dashboard blockquote {color: var(--colorFg);}
+.branch-name {background-color: var(--colorAc);}
+a.branch-name {color: var(--colorHl);}
+aside.team-left-column {background-color: var(--colorBg);}
+/* repo page */
 .repohead {background-color: var(--colorAc) !important;}
 .reponav-item,.reponav-item.selected {color: var(--colorFg);}
 .reponav-item.selected {
@@ -49,29 +77,5 @@ table.files {background-color: var(--colorBgDarker);}
 table.files td {border-color: var(--colorAc);}
 table.files td.icon,table.files td.icon .octicon-file-directory {color: var(--colorFg);}
 table.files tr.navigation-focus td, table.files tr[aria-selected=true] td {background-color: var(--colorBg);}
-.dashboard-sidebar {background-color: var(--colorAc);}
-.form-control {
-    background-color: var(--colorBgDarker);
-    border-color: var(--colorBgDarker);
-}
-.mt-3 {margin-top: 0 !important;}
-body > div.application-main > div > div {
-    padding-right: 0 !important;
-    padding-left: 0 !important;
-}
-#dashboard {
-    padding: 1% 3%;
-    background-color: var(--colorBg) !important;
-}
-.link-gray-dark {color: var(--colorHl) !important;}
-.link-gray-dark:hover {color: var(--colorFg) !important;}
-.text-gray-dark {color: var(--colorFg) !important;}
-.Box {
-    color: var(--colorFg);
-    background-color: var(--colorBgDarker);
-    border-color: var(--colorBgDarker);
-}
-#dashboard blockquote {color: var(--colorFg);}
-.branch-name {background-color: var(--colorAc);}
-a.branch-name {color: var(--colorHl);}
-aside.team-left-column {background-color: var(--colorBg);}
+/* issues page */
+.blankslate {background-color: var(--colorBgDarker);}
