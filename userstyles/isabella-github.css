@@ -69,6 +69,8 @@ aside.team-left-column {background-color: var(--colorBg);}
     background-color: var(--colorBg);
     border: initial;
 }
+.reponav-item svg {color: var(--colorFg) !important;}
+.reponav-item .Counter {color: var(--colorFg);}
 .social-count {
     color: var(--colorFg);
     background-color: var(--colorBgDarker);
@@ -110,3 +112,54 @@ table.files tr.navigation-focus td, table.files tr[aria-selected=true] td {backg
 .markdown-body h1,.markdown-body h2,.markdown-body blockquote {border-color: var(--colorFgFaded);}
 /* issues page */
 .blankslate {background-color: var(--colorBgDarker);}
+.discussion-sidebar-heading {color: var(--colorFg);}
+.discussion-sidebar-item {color: var(--colorFgFaded);}
+.discussion-sidebar-item+.discussion-sidebar-item {border-top: 1px solid var(--colorAc);}
+.Box-row--focus-gray.navigation-focus {background-color: var(--colorBg);}
+.Box-row {border-color: var(--colorBg);}
+/* issues threads */
+.gh-header {background-color: var(--colorBg);}
+.gh-header-meta {border-color: var(--colorAc);}
+.discussion-timeline:before {display: none;}
+.timeline-comment-wrapper {
+    margin-bottom: 5px;
+    padding-left: 0;
+    border-top: initial;
+    border-bottom: initial;
+}
+.timeline-comment {
+    background-color: var(--colorBgDarker);
+    border-color: var(--colorBgDarker);
+}
+.timeline-comment-header {
+    background-color: var(--colorAc);
+    border-color: var(--colorAc);
+}
+.timeline-comment-header .author {color: var(--colorFg) !important;}
+.pagination-loader-container {
+    background-color: var(--colorBg);
+    background-image: initial;
+}
+.discussion-timeline-actions {
+    background-color: var(--colorBg);
+    border-color: var(--colorBg);
+}
+.new-discussion-timeline .previewable-comment-form .comment-form-head.tabnav {
+    background-color: var(--colorAc);
+    border-color: var(--colorAc);
+}
+.tabnav-tab.selected {
+    color: var(--colorFg);
+    background-color: var(--colorBgDarker);
+    border-color: var(--colorAc);
+}
+.input-contrast:focus {background-color: var(--colorAc);}
+.form-control:focus {border-color: var(--colorAc);}
+.form-control,.form-select {color: var(--colorFg);}
+.upload-enabled textarea {border: 1px dashed var(--colorAc);}
+.drag-and-drop {border: 1px solid var(--colorAc);}
+.drag-and-drop .bg-gray-light {background-color: var(--colorAc) !important;}
+.thread-subscription-status {background-color: var(--colorBg);}
+.thread-subscription-status .text-gray {color: var(--colorFg) !important;}
+/* pull requests page */
+.border-gray-light {border-color: var(--colorAc) !important;}
