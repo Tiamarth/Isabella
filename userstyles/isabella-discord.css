@@ -21,10 +21,18 @@ body {
     --colorAcLight: #cccccc;
 }
 /* global compacter */
+.wrapper-1Rf91z {width: 60px;}
+.wrapper-sa6paO {height: 40px;}
+.listItem-2P_4kh {width: 60px;}
+.svg-1X37T1,.wrapper-25eVIn {
+    height: 40px;
+    width: 40px;
+}
+.guildSeparator-3s64Iy {display: none;}
 .containerCompact-3V0ioj {padding: 2px 0;}
 .message-1PNnaP {margin-bottom: 0;}
-.content-3dzVd8 {padding-right: 2%;}
-.containerCompact-3bB5aN {padding-left: 3%;}
+.content-3dzVd8 {padding-right: 1%;}
+.containerCompact-3bB5aN {padding-left: 1%;}
 .buttonContainer-KtQ8wc {display: none;}
 .timestampCompact-MHgFLv:before {content: '[';}
 .timestampCompact-MHgFLv:after {content: ']';}
@@ -37,13 +45,16 @@ body {
     margin-right: 1%;
     margin-left: 1%;
 }
-.messageEditorCompact-2PSR3v .inner-zqa7da {
-    height: 990px !important;
-    max-height: 990px !important;
+.messageEditorCompact-2PSR3v .inner-zqa7da {max-height: 990px !important;}
+.messageEditorCompact-2PSR3v textarea {max-height: 965px !important;}
+.chat-3bRxxu form {
+    margin-right: 1%;
+    margin-left: 1%;
 }
-.messageEditorCompact-2PSR3v textarea {
-    height: 965px !important;
-    max-height: 965px !important;
+.channelTextArea-rNsIhG {
+    margin-bottom: 5px;
+    padding-top: 5px;
+    border-top: initial !important;
 }
 /* global colors */
 .theme-dark .wrapper-1Rf91z,.theme-light .wrapper-1Rf91z {background-color: var(--colorAcDark);}
@@ -61,4 +72,5 @@ body {
 .theme-dark .messagesWrapper-3lZDfY {
     background-color: var(--colorBgDark);
 }
+.theme-dark .chat-3bRxxu form {background-color: var(--colorBg)}
 .theme-dark .timestampCompact-MHgFLv {color: var(--colorFgDark) !important;}
