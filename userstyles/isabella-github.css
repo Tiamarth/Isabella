@@ -63,7 +63,7 @@ aside.team-left-column {background-color: var(--colorBg);}
 }
 /* repo page */
 .repohead {background-color: var(--colorAc) !important;}
-.reponav-item,.reponav-item.selected {color: var(--colorFg);}
+.reponav-item,.reponav-item.selected,.reponav-item:focus,.reponav-item:hover {color: var(--colorFg);}
 .reponav-item.selected {
     padding-top: 10px;
     background-color: var(--colorBg);
