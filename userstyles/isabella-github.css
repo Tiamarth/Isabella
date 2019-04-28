@@ -1,0 +1,48 @@
+/* https://tiamarth.github.io/Isabella/ */
+body {
+    --colorBlack: black;
+    --colorWhite: white;
+    --colorHl: #be4318;
+    --colorHlFaded: #b18879;
+    --colorBg: #333335;
+    --colorBgDarker: #232325;
+    --colorFg: #d1d1d1;
+    --colorFgBolded: white;
+    --colorFgFaded: #87878c;
+    --colorAc: #101013;
+    color: var(--colorFg);
+    background-color: var(--colorBg);
+}
+a {color: var(--colorHl);}
+a:hover {color: var(--colorFg);}
+.bg-white {background-color: var(--colorAc) !important;}
+.bg-gray {background-color: var(--colorBg) !important;}
+.border-top,.border-right,.border-bottom,.border-left {border-color: var(--colorAc) !important;}
+.Header {background: var(--colorAc) !important;}
+.repohead {background-color: var(--colorAc) !important;}
+.dashboard-sidebar {background-color: var(--colorAc);}
+.form-control {
+    background-color: var(--colorBgDarker);
+    border-color: var(--colorBgDarker);
+}
+.mt-3 {margin-top: 0 !important;}
+body > div.application-main > div > div {
+    padding-right: 0 !important;
+    padding-left: 0 !important;
+}
+#dashboard {
+    padding: 1% 3%;
+    background-color: var(--colorBg) !important;
+}
+.link-gray-dark {color: var(--colorHl) !important;}
+.link-gray-dark:hover {color: var(--colorFg) !important;}
+.text-gray-dark {color: var(--colorFg) !important;}
+.Box {
+    color: var(--colorFg);
+    background-color: var(--colorBgDarker);
+    border-color: var(--colorBgDarker);
+}
+#dashboard blockquote {color: var(--colorFg);}
+.branch-name {background-color: var(--colorAc);}
+a.branch-name {color: var(--colorHl);}
+aside.team-left-column {background-color: var(--colorBg);}
