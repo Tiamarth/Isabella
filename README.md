@@ -9,12 +9,15 @@
 - Vivaldi [isabella-vivaldi](https://github.com/Tiamarth/isabella-vivaldi)
 - Gnome [isabella-gnome](https://github.com/Tiamarth/isabella-gnome)
 
-### Todo
-&#9744; steam  
-&#9744; atom  
-&#9744; empathy (adium)  
-&#9744; discord (maybe)  
-&#9744; responsive site for mobile support  
+### Also
+
+I plan on eventually using this color scheme in virtually every app and website I regularly use. Right now there's a color scheme available for Sublime Text, and themes available for Vivaldi and Gnome. There's a Discord skin in progress as well, and support for Github and Google voice is coming too. For now you can find the Discrod, Github, and Google Voice stylesheets [here.](https://github.com/Tiamarth/Isabella/tree/master/userstyles)
+
+Other applications and sites I plan on supporting are Atom, Steam, Google, DuckDuckGo, and the Vivaldi Forums.
+
+#### Screenshots:
+Isabella for Github:
+![isabella for github](https://cdn.discordapp.com/attachments/404363644453912577/571985761780498455/unknown.png)
 
 ## License
 Because the gtk theme and the Vivaldi theme uses graphics from the Arc gtk theme, I've decided to use the same license as Arc, which is the [GPL-3.0](./LICENSE)
