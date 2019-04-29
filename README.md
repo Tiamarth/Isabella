@@ -2,8 +2,6 @@
 > The universal color scheme.  
 > We were there...
 
-[Screenshots](https://imgur.com/a/p7yC7B7) (imgur album)
-
 ## Supported Applications
 - Discord: [isabella-discord](https://github.com/isabella-theme/isabella-discord)
 - Github: [isabella-github](https://github.com/isabella-theme/isabella-github)
@@ -23,10 +21,9 @@ Because the gtk theme and the Vivaldi theme uses graphics from the Arc gtk theme
 
 If I ever learn enough about gtk theming to write my own skin I'll likely take a queue from the Dracula colour scheme and relicense to MIT.
 
+[Screenshots](https://imgur.com/a/p7yC7B7) (imgur album)
+
 **Need more help?** Get in touch!
 - join my [Discord server](https://discord.gg/ZfDP2ZV)
 - [Email me](mailto:jontiamac@gmail.com)
 
-**Screenshots:**
-Isabella for Github:
-![isabella for github](https://cdn.discordapp.com/attachments/404363644453912577/571985761780498455/unknown.png)
