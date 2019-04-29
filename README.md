@@ -12,7 +12,7 @@
 
 ### Also
 
-I plan on eventually using this color scheme in virtually every app and website I regularly use. Right now there's a color scheme available for Sublime Text, and themes available for Vivaldi and Gnome. There's a Discord skin in progress as well, and support for Github and Google voice is coming too. For now you can find the Discord, Github, and Google Voice stylesheets [here.](https://github.com/Tiamarth/Isabella/tree/master/userstyles)
+I plan on eventually using this color scheme in virtually every app and website I regularly use. Right now there's a color scheme available for Sublime Text, and themes available for Vivaldi and Gnome. There's a Discord skin in progress as well, and support for Github and Google voice is coming too.
 
 Other applications and sites I plan on supporting are Adium (Empathy), Atom, Steam, Google, DuckDuckGo, and the Vivaldi Forums. If there's an app or site you want support for feel free to create an issue to request it, or write one and submit a pull request.
 
