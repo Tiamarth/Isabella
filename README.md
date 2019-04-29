@@ -10,7 +10,7 @@
 - Gnome: [isabella-gnome](https://github.com/isabella-theme/isabella-sublime)
 - Google Voice: [isabella-google-voice](https://github.com/isabella-theme/isabella-google-voice)
 - Sublime Text: [isabella-sublime](https://github.com/isabella-theme/isabella-sublime)
-- Vivaldi: [isabella-vivaldi]https://github.com/isabella-theme/isabella-vivaldi)
+- Vivaldi: [isabella-vivaldi](https://github.com/isabella-theme/isabella-vivaldi)
 
 ### Also
 
