@@ -9,7 +9,7 @@
     color: #d1d1d1 !important;
     background-color: #333335 !important;
     border-color: #101013 !important;
-    /* box-shadow: none; */
+    box-shadow: 0 0 black;
 }
 ::selection {
     background-color: #be4318 !important;
