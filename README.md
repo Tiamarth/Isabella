@@ -5,7 +5,7 @@
 ## Supported Applications
 - Discord: [isabella-discord](https://github.com/isabella-theme/isabella-discord)
 - Github: [isabella-github](https://github.com/isabella-theme/isabella-github)
-- Gnome: [isabella-gnome](https://github.com/isabella-theme/isabella-sublime)
+- Gnome: [isabella-gnome](https://github.com/isabella-theme/isabella-gnome)
 - Google Voice: [isabella-google-voice](https://github.com/isabella-theme/isabella-google-voice)
 - Sublime Text: [isabella-sublime](https://github.com/isabella-theme/isabella-sublime)
 - Vivaldi: [isabella-vivaldi](https://github.com/isabella-theme/isabella-vivaldi)
