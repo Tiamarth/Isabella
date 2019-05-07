@@ -40,19 +40,19 @@ p {margin-left: 6%;}
     background: var(--colorBg);
 }
 .cards {
-    width: 85vw;
-    margin: auto;
+    width: auto;
+    margin: auto 3%;
 }
 .cards#light {display: none;}
 .cards h2 {margin-bottom: 3%;}
 .card {
     position: relative;
     display: inline-block;
-    margin: 20px 1%;
+    margin: 20px 5px;
 }
 .card img {
     display: inline-block;
-    height: 300px;
+    height: 277px;
     box-shadow: 0 1px 4px black;
 }
 .card-overlay {
@@ -61,15 +61,15 @@ p {margin-left: 6%;}
     top: -40px;
     left: 0;
     height: 0px;
-    width: 367px;
+    width: 338px;
     padding-top: 0;
     text-align: center;
     background: #000000bd;
     opacity: 1;
 }
 .card:hover .card-overlay {
-    height: 211px;
-    padding-top: 130px;
+    height: 160px;
+    padding-top: 160px;
     opacity: 1;
     box-shadow: 0 1px 10px black;
 }
@@ -107,7 +107,7 @@ label {
     height: 0;
     position: absolute;
     top: 10px;
-    left: 19vw;
+    right: 10px;
     color: var(--colorFgFaded);
 }
 label:hover {
