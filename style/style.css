@@ -83,16 +83,17 @@ p {margin-left: 6%;}
 .color img {box-shadow: 0 0 3px black;}
 .palettePopup {
     position: absolute;
-    bottom: -40px;
-    left: 0;
+    top: auto;
+    left: -100px;
+    display: table;
     color: var(--colorHighlightBg);
-    background: #000000bd;
+    background: #000000d4;
     opacity: 0;
-    padding: 0 0;
+    padding: 10px 15px;
 }
 .color:hover .palettePopup {
     opacity: 1;
-    padding: 5px 25px;
+    z-index: 1;
 }
 .bottom {
     text-align: center;
